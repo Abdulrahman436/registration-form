@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form">
+            <div id="parent">
+            <div class="head">
+                <h1>Registration Form</h1>
+            </div>
+
+            <div class="name">
+                <input placeholder="Enter Your Name" id="name" type="text">
+            </div>
+
+            <div class="name">
+                <input placeholder="Enter Father Name" id="father" type="text">
+            </div>
+
+            <div class="name">
+                <input placeholder="Enter Phone Number" id="phone" type="number">
+            </div>
+
+            <div class="name">
+                <input placeholder="Enter CNIC" id="cnic" type="number">
+            </div>
+
+            <div class="name">
+                <input type="date" id="date">
+            </div>
+
+            <div class="name">
+                <select id="course" name="course" required>
+                    <option value="">Select course</option>
+                    <option value="web-dev">Web Development</option>
+                    <option value="app-dev">App Development</option>
+                    <option value="graphic-design">Graphic Designing</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                </select>
+            </div>
+
+            
+
+            <div class="signBtn">
+                <button class="submit" onclick="create(event)">Submit</button>
+            </div>
+
+        <div id="cardcontainer">
+
+        </div>
+
+</div>
+        </form>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
