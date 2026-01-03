@@ -1,66 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to bottom,#774CB8,#3FA4D2);
+    background: linear-gradient(to bottom, #774CB8, #3FA4D2);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.form{
-  width: 350px;
-  height: 500px;
-  background-color: #2A2A6B;
+.form {
+    width: 350px;
+    height: 500px;
+    background-color: #2A2A6B;
 }
 
-.head{
-   background-color: #242156;
-   height: 60px;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.head {
+    background-color: #242156;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.head h1{
+.head h1 {
     color: white;
-   
+
 }
 
-.name{
-   width: 100%; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.form input{
-   width: 90%;
-   height: 35px;
-   margin-top: 20px;
-   border-radius: 10px;
-   border: none;
-   padding-left: 10px;
-   font-size: 15px;
-}
-
-#course{
+.form input {
     width: 90%;
-   height: 35px;
-   margin-top: 20px;
-   border-radius: 10px;
-   border: none;
-   padding-left: 10px;
-   font-size: 15px; 
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
-.submit{
+#course {
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.submit {
     display: block;
     margin: 0 auto;
     background-color: #4a45ac;
@@ -74,16 +74,18 @@
     margin-top: 30px;
 }
 
-.submit:hover{
+.submit:hover {
     opacity: 0.5;
     color: white;
-    transition: 1s  ;
+    transition: 1s;
 }
 
-.student-card{
+.student-card {
     margin-top: 20px;
     padding: 15px;
     border-radius: 8px;
-    background-color: #e3f2fd;
+    width: 300px;
+    background-color: #2A2A6B;
+    color: white;
     text-align: left;
 }

@@ -42,7 +42,7 @@ function create(e) {
     `;
 
     document.getElementById("cardcontainer").innerHTML = card;
-    document.getElementById("parent").style.display = "none";
+    document.getElementById("form").style.display = "none";
 
     console.log(obj);
 }
